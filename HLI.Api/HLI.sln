@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLI.Api", "HLI.Api\HLI.Api.
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HLI.Database", "..\HLI.Database\HLI.Database.sqlproj", "{B30FFF9A-8EC9-4B1D-9496-FFA068616806}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{09C4129B-99DF-41AD-BD7B-E7453BB04E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{249C1B69-AD8D-4729-A585-2BBC2F9F8BDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F4D1313-764E-4252-B9BB-9E030E506234} = {249C1B69-AD8D-4729-A585-2BBC2F9F8BDF}
+		{B30FFF9A-8EC9-4B1D-9496-FFA068616806} = {249C1B69-AD8D-4729-A585-2BBC2F9F8BDF}
+		{249C1B69-AD8D-4729-A585-2BBC2F9F8BDF} = {09C4129B-99DF-41AD-BD7B-E7453BB04E36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B07CA0C4-D6B8-4B40-BA75-8326B39FE2B4}
